@@ -19,6 +19,7 @@ st.title("🚀Flood Risk Prediction DSS for Isp688 Group Project")
 st.markdown("""
             ### 🗣️ Chat With Me To Predict Your Flood Risk 
             Enter the postal code of your address to see your area flood risk.
+            Example : 41050
             
             **📌Location Cluster Code**
             """)
