@@ -14,14 +14,11 @@ st.set_page_config(layout="wide")
 
 
 # Customize page title
-st.title("🚀Flood Risk Prediction Engine")
+st.title("🚀Flood Risk Prediction DSS for Isp688 Group Project")
 
 st.markdown("""
             ### 🗣️ Chat With Me To Predict Your Flood Risk 
-            This is a flood risk prediction service that predicts the flood risk of a location in Malaysia. The result is not 100% accurate and should not be used as a basis for any decision making. 
-            The result is only for reference purposes.
-            
-            The application is designed to look like an interactive chatbot.
+            Enter the postal code of your address to see your area flood risk.
             
             **📌Location Cluster Code**
             """)
@@ -76,7 +73,7 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-prompt = st.chat_input("Enter your address of interest and cluster code here:")
+prompt = st.chat_input("Enter your address postcode here:")
 
 if prompt:
     # assign variables
