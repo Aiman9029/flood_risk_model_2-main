@@ -11,21 +11,7 @@ import time
 
 st.set_page_config(layout="wide")
 
-# customize the side bar
-st.sidebar.title("Resources:")
-st.sidebar.info(
-    """
-    - GitHub repository: [Flood Risk Model](https://github.com/keanteng/flood_risk_model_2)
-    - Data sources: [Flood Data](https://www.water.gov.my/)
-    """
-)
 
-st.sidebar.title("Created By:")
-st.sidebar.info(
-    """
-  Khor Kean Teng | Intern, DGA, JPS, Bank Negara Malaysia | [GitHub](https://github.com/keanteng) | [LinkedIn](https://www.linkedin.com/in/khorkeanteng/)
-    """
-)
 
 # Customize page title
 st.title("🚀Flood Risk Prediction Engine")
